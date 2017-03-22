@@ -14,10 +14,10 @@
 	
 	var pool=new Pool(config);
 	
-	app.get('/:cityname',function(req,res)
+	app.get('/testdb',function(req,res)
 				{
 					
-					pool.query("select * from weather where city=$1",[req.params.cityname],function(err,result)
+					pool.query("select * from weather ",function(err,result)
 																													
 					{
 					
