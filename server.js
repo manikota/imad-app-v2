@@ -7,7 +7,7 @@
 			
 			user:'manikota',		
 			database:'manikota',
-			host:'db.imad.hasura.io',
+			host:'db.imad.hasura-app.io',
 			port:'5432',
 			password:process.env.DB_PASSWORD
 		}
